@@ -13,7 +13,6 @@ export function Player({ initialName, symbol, isActive, onChangeName }) {
   }
 
   const handleChangeName = (event) => {
-    console.log(event);
     setPlayerName(event.target.value)
   }
   return (
